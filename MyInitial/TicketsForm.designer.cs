@@ -32,13 +32,14 @@
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.lblAmountDue = new System.Windows.Forms.Label();
             this.lblAmount = new System.Windows.Forms.Label();
-            this.chkDiscount = new System.Windows.Forms.CheckBox();
+            this.chkDiscount1 = new System.Windows.Forms.CheckBox();
             this.radBalcony = new System.Windows.Forms.RadioButton();
             this.radGeneral = new System.Windows.Forms.RadioButton();
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
             this.radBackStalls = new System.Windows.Forms.RadioButton();
+            this.chkDiscount2 = new System.Windows.Forms.CheckBox();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,16 +80,16 @@
             this.lblAmount.Size = new System.Drawing.Size(0, 16);
             this.lblAmount.TabIndex = 3;
             // 
-            // chkDiscount
+            // chkDiscount1
             // 
-            this.chkDiscount.AutoSize = true;
-            this.chkDiscount.Location = new System.Drawing.Point(148, 117);
-            this.chkDiscount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.chkDiscount.Name = "chkDiscount";
-            this.chkDiscount.Size = new System.Drawing.Size(123, 20);
-            this.chkDiscount.TabIndex = 5;
-            this.chkDiscount.Text = "Senior / Student";
-            this.chkDiscount.UseVisualStyleBackColor = true;
+            this.chkDiscount1.AutoSize = true;
+            this.chkDiscount1.Location = new System.Drawing.Point(148, 117);
+            this.chkDiscount1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkDiscount1.Name = "chkDiscount1";
+            this.chkDiscount1.Size = new System.Drawing.Size(123, 20);
+            this.chkDiscount1.TabIndex = 5;
+            this.chkDiscount1.Text = "Senior / Student";
+            this.chkDiscount1.UseVisualStyleBackColor = true;
             // 
             // radBalcony
             // 
@@ -163,14 +164,26 @@
             this.radBackStalls.Text = "Back Stalls";
             this.radBackStalls.UseVisualStyleBackColor = true;
             // 
+            // chkDiscount2
+            // 
+            this.chkDiscount2.AutoSize = true;
+            this.chkDiscount2.Location = new System.Drawing.Point(312, 117);
+            this.chkDiscount2.Margin = new System.Windows.Forms.Padding(4);
+            this.chkDiscount2.Name = "chkDiscount2";
+            this.chkDiscount2.Size = new System.Drawing.Size(59, 20);
+            this.chkDiscount2.TabIndex = 11;
+            this.chkDiscount2.Text = "Child";
+            this.chkDiscount2.UseVisualStyleBackColor = true;
+            // 
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 548);
+            this.Controls.Add(this.chkDiscount2);
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.grpSection);
-            this.Controls.Add(this.chkDiscount);
+            this.Controls.Add(this.chkDiscount1);
             this.Controls.Add(this.lblAmount);
             this.Controls.Add(this.lblAmountDue);
             this.Controls.Add(this.txtQuantity);
@@ -192,13 +205,14 @@
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Label lblAmountDue;
         private System.Windows.Forms.Label lblAmount;
-        private System.Windows.Forms.CheckBox chkDiscount;
+        private System.Windows.Forms.CheckBox chkDiscount1;
         private System.Windows.Forms.RadioButton radBalcony;
         private System.Windows.Forms.RadioButton radGeneral;
         private System.Windows.Forms.RadioButton radBox;
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
         private System.Windows.Forms.RadioButton radBackStalls;
+        private System.Windows.Forms.CheckBox chkDiscount2;
     }
 }
 
